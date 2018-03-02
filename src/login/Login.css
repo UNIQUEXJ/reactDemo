@@ -1,0 +1,102 @@
+.LJ-login-class {
+  position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url("../img/bg.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.LJ-login-title {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 50px 0 0 60px;
+}
+.LJ-login-input-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background-color: #0000;
+  width: 1000px;
+  height: 350px;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.LJ-login-form {
+  display: inline-block;
+  float: right;
+  width: 336px;
+  height: 350px;
+  background: white;
+  text-align: center;
+  padding-top: 34px;
+  border-radius: 6px;
+}
+.LJ-login-form input {
+  margin: 0;
+  padding: 0 30px 0 10px;
+  border: 0;
+  width: 100%;
+  background-color: #00000000 !important;
+  outline: none;
+  border-radius: 4px;
+}
+.LJ-login-form input:focus {
+  border: 0;
+}
+.LJ-login-form input:-webkit-autofill {
+  background-color: #00000000 !important;
+}
+.LJ-login-username {
+  margin: 50px 0 25px 44px;
+  width: 248px;
+  height: 40px;
+  background: #ffffffcd;
+  line-height: 38px;
+  font-size: 14px;
+  color: #333333;
+  border-radius: 4px;
+  border: solid #cccccc 1px;
+}
+.LJ-login-username-icon {
+  position: absolute;
+  margin-left: 225px;
+  margin-top: 10px;
+  z-index:5;
+  background-repeat: no-repeat;
+  background-image: url("../img/icon_user.png");
+  width: 12px;
+  height: 16px;
+}
+.LJ-login-password {
+  margin-left: 44px;
+  width: 248px;
+  height: 40px;
+  background: #ffffffcd;
+  line-height: 38px;
+  font-size: 14px;
+  color: #333333;
+  border-radius: 4px;
+  border: solid #cccccc 1px;
+}
+.LJ-login-password-icon {
+  position: absolute;
+  margin-left: 225px;
+  margin-top: 10px;
+  z-index:5;
+  background-repeat: no-repeat;
+  background-image: url("../img/icon_key.png");
+  width: 12px;
+  height: 16px;
+}
+.LJ-btn-login {
+  margin-top: 32px;
+  width: 250px;
+  height: 40px;
+  border-radius: 4px;
+  background: #383b3d;
+  color: white;
+}
